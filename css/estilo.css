@@ -1,0 +1,160 @@
+body{
+    background-color: gray;
+}
+
+#imagenFondo{
+    background-image: url(../img/fondoatras.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#menuSuperior{
+    display: flex;
+    justify-content: right;
+}
+
+#menuSuperior ul{
+    display: flex;
+    margin: 15px;
+}
+
+#menuSuperior li{
+    margin: 15px;
+    font-size: 22px;
+    list-style-type: none;
+}
+
+#menuSuperior a{
+    text-decoration: none;
+}
+
+#logoLlefia{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#dispositivos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#dispositivos img{
+    float: left;
+    margin-right: 10px;
+}
+
+#dispositivos h1{
+    padding: 50px;
+    color: white;
+}
+
+#canales{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+#amazonPrime{
+    margin: 50px;
+}
+
+#netflix{
+    margin: 50px;
+}
+
+#hboMax{
+    margin: 50px;
+}
+
+#bodyLogin{
+    background-color: black;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+
+#iniciarSesion{
+color: dodgerblue;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#correo{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+}
+#contraseña{
+    width: 250px;
+}
+
+label{
+    color: white;
+}
+
+input{
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: dodgerblue;
+    width: 250px;
+}
+
+table, td, th{
+    border: 1px solid black;
+    color: black;
+}
+
+#tituloTablas{
+    font-size: 24px;
+}
+
+#Peliculass h2{ 
+    color: black; 
+    font-size: 30PX; 
+}
+
+#risa{
+    display: flex;
+}
+
+#risa img{
+    justify-content: space-between; 
+    padding: 10px; 
+    width: 300px; 
+    height: 400px; 
+    border-style: solid;  
+    border-color: rgb(124, 125, 126);   
+}
+
+#amor{
+    display: flex;
+}
+
+#amor img{
+    justify-content: space-between; 
+    width: 300px; 
+    height: 400px; 
+    border-style: solid;  
+    border-color: rgb(124, 125, 126); 
+}
+
+#susto{
+    display: flex;
+}
+
+#susto img{
+    justify-content: space-between; 
+    padding: 10px;
+    width: 300px; 
+    height: 400px; 
+    border-style: solid; 
+    border-color: rgb(124, 125, 126); 
+}
